@@ -33,3 +33,6 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+
+# Floko specifics
+TARGET_HAS_FOD := true
